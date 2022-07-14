@@ -25,20 +25,28 @@ export const ContainerImage = styled.div`
   }
 `
 
-export const Text = styled.h1`
-  margin-top: -11rem;
-  margin-left: 5rem;
-  font-weight: 600;
-  font-size: 16px;
-  color: #fff;
-`
-
 export const Title = styled.h1`
   color: #fff;
   margin-top: -4rem;
   font-size: 35px;
   margin-left: 10px;
   font-weight: 600;
+`
+
+export const Text = styled.h1`
+  margin-top: -11rem;
+  margin-left: 5rem;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+
+  @media (min-width: 1780px) {
+    margin-top: -15rem;
+  }
+
+  @media (min-width: 1780px) {
+    margin-top: -15rem;
+  }
 `
 
 export const Image = styled.img`
