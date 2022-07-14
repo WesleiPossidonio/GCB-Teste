@@ -23,7 +23,7 @@ export const Container = styled.div`
     display: none;
   }
 
-  .sc-kgflAQ.eHQtXd.rec.rec-item-wrapper {
+  .sc-fLlhyt.jwmRJg.rec.rec-item-wrapper {
     width: 100% !important;
     padding: 5px !important;
     margin: 1em !important;
@@ -31,11 +31,11 @@ export const Container = styled.div`
 
   .sc-ivTmOn.gfKMBB.rec.rec-carousel {
     @media (min-width: 1400px) {
-      margin-left: 4em;
+      margin-left: 4em !important;
     }
 
     @media (min-width: 1700px) {
-      margin-left: 30em;
+      margin-left: 30em !important;
     }
   }
 `
