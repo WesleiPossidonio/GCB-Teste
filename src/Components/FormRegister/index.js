@@ -15,7 +15,7 @@ export const Form = () => {
 
   const schema = yup.object().shape({
     name: yup.string().required('Name is required'),
-    date: yup.string().required('Date of Birth is required'),
+    date: yup.string().date().required('Date of Birth is required'),
     cpf: yup
       .string()
       .required('CPF is required')
