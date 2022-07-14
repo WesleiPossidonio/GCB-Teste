@@ -29,13 +29,13 @@ export const Container = styled.div`
     margin: 1em !important;
   }
 
-  .sc-ivTmOn.gfKMBB.rec.rec-carousel {
+  .sc-cxabCf.gLZsMv.rec.rec-carousel {
     @media (min-width: 1400px) {
-      margin-left: 4em !important;
+      margin-left: 4em;
     }
 
     @media (min-width: 1700px) {
-      margin-left: 30em !important;
+      margin-left: 70em;
     }
   }
 `
