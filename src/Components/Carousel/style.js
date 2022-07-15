@@ -23,7 +23,7 @@ export const Container = styled.div`
     display: none;
   }
 
-  .sc-fLlhyt.jwmRJg.rec.rec-item-wrapper {
+  .sc-fLlhyt.hfEryI.rec.rec-item-wrapper {
     width: 100% !important;
     padding: 5px !important;
     margin: 1em !important;
