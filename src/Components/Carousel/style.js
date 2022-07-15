@@ -23,7 +23,7 @@ export const Container = styled.div`
     display: none;
   }
 
-  .sc-fLlhyt.hfEryI.rec.rec-item-wrapper {
+  .sc-fLlhyt.jwmRJg.rec.rec-item-wrapper {
     width: 100% !important;
     padding: 5px !important;
     margin: 1em !important;
@@ -35,7 +35,7 @@ export const Container = styled.div`
     }
 
     @media (min-width: 1700px) {
-      margin-left: 70em;
+      margin-left: 6em;
     }
   }
 `
