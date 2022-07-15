@@ -35,7 +35,7 @@ export const Container = styled.div`
     }
 
     @media (min-width: 1700px) {
-      margin-left: 6em;
+      margin-left: 65em;
     }
   }
 `
