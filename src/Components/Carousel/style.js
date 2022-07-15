@@ -25,8 +25,8 @@ export const Container = styled.div`
 
   .sc-fLlhyt.jwmRJg.rec.rec-item-wrapper {
     width: 100% !important;
-    padding: 5px !important;
-    margin: 1em !important;
+    padding: 1em !important;
+    margin: 10px !important;
   }
 
   .sc-cxabCf.gLZsMv.rec.rec-carousel {
