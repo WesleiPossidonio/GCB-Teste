@@ -7,6 +7,12 @@ export const Container = styled.div`
   align-items: center;
   margin-top: 2em;
 
+  .sc-fLlhyt.jwmRJg.rec.rec-item-wrapper {
+    width: 100% !important;
+    padding: 1em !important;
+    margin: 10px !important;
+  }
+
   .rec.rec-arrow {
     background-color: #badc50;
     color: #efefef;
@@ -21,12 +27,6 @@ export const Container = styled.div`
 
   .rec.rec-arrow:disabled {
     display: none;
-  }
-
-  .sc-fLlhyt.jwmRJg.rec.rec-item-wrapper {
-    width: 100% !important;
-    padding: 1em !important;
-    margin: 10px !important;
   }
 
   .sc-cxabCf.gLZsMv.rec.rec-carousel {
