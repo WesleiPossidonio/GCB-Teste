@@ -24,7 +24,7 @@ export const ContainerItens = styled.div`
 `
 
 export const Title = styled.h1`
-  font-size: min(40px, 5vw);
+  font-size: min(40px, 4vw);
   color: #1d164d;
   margin-bottom: 20px;
   margin-top: 4em;

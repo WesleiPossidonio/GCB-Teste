@@ -10,7 +10,6 @@ export const Container = styled.div`
   .sc-fLlhyt.jwmRJg.rec.rec-item-wrapper {
     width: 100% !important;
     padding: 1em !important;
-    margin: 10px !important;
   }
 
   .rec.rec-arrow {
