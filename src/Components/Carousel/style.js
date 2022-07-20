@@ -7,9 +7,10 @@ export const Container = styled.div`
   align-items: center;
   margin-top: 2em;
 
-  .sc-fLlhyt.jwmRJg.rec.rec-item-wrapper {
+  .rec.rec-item-wrapper {
     width: 100% !important;
     padding: 1em !important;
+    margin: 10px !important;
   }
 
   .rec.rec-arrow {
@@ -28,7 +29,7 @@ export const Container = styled.div`
     display: none;
   }
 
-  .sc-cxabCf.gLZsMv.rec.rec-carousel {
+  .rec.rec-carousel {
     @media (min-width: 1400px) {
       margin-left: 4em;
     }
