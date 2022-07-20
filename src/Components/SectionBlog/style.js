@@ -11,6 +11,6 @@ export const Container = styled.section`
 `
 
 export const ContainerText = styled.div`
-  margin-top: 3em;
+  margin-top: 4.5em;
   margin-bottom: 3em;
 `
