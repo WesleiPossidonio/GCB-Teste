@@ -30,7 +30,7 @@ export const SectionHome = () => {
         </ContainerItens>
       </ContainerText>
       <ContainerImage>
-        <Image src={HomeImage} />
+        <Image src={HomeImage} alt="imagem-avatar" />
       </ContainerImage>
     </Container>
   )

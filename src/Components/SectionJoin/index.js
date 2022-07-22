@@ -46,7 +46,7 @@ export const SectionJoin = () => {
           </Button>
         </ContainerInput>
       </ContainerItens>
-      <Image src={ImageSectionJoin} />
+      <Image src={ImageSectionJoin} alt="imagem-avatar" />
     </Container>
   )
 }

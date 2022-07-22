@@ -27,7 +27,7 @@ export const SectionRecipes = () => {
       </ContainerItens>
       <ContainerCards>
         <Card>
-          <ImageCard src={ImageCardOne} />
+          <ImageCard src={ImageCardOne} alt="imagem-avatar" />
           <ContainerText>
             <TextCard>
               Broccoli Salad <br /> with Bacon

@@ -29,7 +29,7 @@ export const IsCarousel = () => {
     <Container>
       <Carousel breakPoints={breakPoints} outerSpacing={12}>
         <CardCarousel>
-          <ImageCard src={ImageCarouselOne} />
+          <ImageCard src={ImageCarouselOne} alt="imagem-de-alimentos" />
           <ContainerItensCard>
             <TextCard style={{ marginRight: '2em' }}>
               Quick-start guide
@@ -44,7 +44,7 @@ export const IsCarousel = () => {
         </CardCarousel>
 
         <CardCarousel>
-          <ImageCard src={ImageCarouselTwo} />
+          <ImageCard src={ImageCarouselTwo} alt="imagem-de-alimentos" />
           <ContainerItensCard>
             <TextCard>
               Nutrition: Tips for <br />
@@ -58,7 +58,7 @@ export const IsCarousel = () => {
         </CardCarousel>
 
         <CardCarousel>
-          <ImageCard src={ImageCarouselTheree} />
+          <ImageCard src={ImageCarouselTheree} alt="imagem-de-alimentos" />
           <ContainerItensCard>
             <TextCard style={{ marginRight: '1.2em' }}>
               The top 10 benefits
@@ -73,7 +73,7 @@ export const IsCarousel = () => {
         </CardCarousel>
 
         <CardCarousel>
-          <ImageCard src={ImageCarouselFour} />
+          <ImageCard src={ImageCarouselFour} alt="imagem-de-alimentos" />
           <ContainerItensCard>
             <TextCard style={{ marginRight: '3.8em' }}>
               What Makes a <br />
