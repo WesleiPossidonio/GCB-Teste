@@ -11,13 +11,11 @@ export const Container = styled.div`
 
 export const ContainerImage = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding: 15px;
-  /* border-radius: 10px 0 0 10px;
-  box-shadow: -7px 7px 13px 0 rgba(50, 50, 50, 0.22); */
   background-color: #badc50;
 
   @media (max-width: 877px) {
@@ -31,22 +29,6 @@ export const Title = styled.h1`
   font-size: 35px;
   margin-left: 10px;
   font-weight: 600;
-`
-
-export const Text = styled.h1`
-  margin-top: -11rem;
-  margin-left: 5rem;
-  font-weight: 600;
-  font-size: 16px;
-  color: #fff;
-
-  @media (min-width: 1780px) {
-    margin-top: -15rem;
-  }
-
-  @media (min-width: 1780px) {
-    margin-top: -15rem;
-  }
 `
 
 export const Image = styled.img`

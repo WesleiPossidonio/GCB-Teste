@@ -6,7 +6,6 @@ import {
   Container,
   ContainerImage,
   Title,
-  Text,
   Image,
   ContainerItens,
   TitleForm,
@@ -18,7 +17,6 @@ export const Register = () => {
     <Container>
       <ContainerImage>
         <Title>Healthy Food</Title>
-        <Text>Cadastro</Text>
         <Image src={ImageRegister} />
       </ContainerImage>
       <ContainerItens>
