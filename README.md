@@ -1,70 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="Healthy-Food" src="./src/Assets/Project-gcb.jpg" width="100%"/>
+</h1>
 
-## Available Scripts
+## 💻 Sobre o projeto
 
-In the project directory, you can run:
+ 🍳 Healthy Food - Foi um teste do processo seletivo do grupo GCB para a vaga de Desenvolverdor Front-End Jr 
 
-### `yarn start`
+O objetivo deste desafio era para fazer as seguintes configurações:
+- Desenvolver o site que está em anexo utilizando toda a estrutura do React, o site tem que ser 100% responsivo, iremos avaliar bem a responsividade.
+- Criar a tela de cadastro baseada na tela inicial, o cadastro precisa receber os dados:
+  - Nome
+  - Data de nascimento
+  -  CPF
+  - CEP
+  - Utilizar a API dos correios para preencher os demais campos que compõe o endereço.
+  - Validação dos campos
+  - Armazenar os dados do formulário no local storage e Cookies.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎨 Layout
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Web
 
-### `yarn test`
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Healthy Food"  src="https://media.giphy.com/media/Qle5vd0UeksnkgFpbS/giphy.gif" width="100%">
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Mobile
 
-### `yarn build`
+<p align="center">
+  <img alt="Healthy-Food"  src="https://media.giphy.com/media/NFenYS0OXvUaDhIvUu/giphy.gif" width="100%">
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [x] React.js
+- [x] Yup
+- [x] PropTypes
+- [x] React_Router_Dom_V6
+- [x] useContext
+- [x] Styled_components
+- [x] React-icons
+- [x] React-scroll
+- [x] Aos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📝 Licença
 
-### `yarn eject`
+Este projeto esta sobe a licença MIT.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ❤️ por Weslei França 👋🏽 [Entre em contato!](https://www.linkedin.com/in/wesleifranca/)
