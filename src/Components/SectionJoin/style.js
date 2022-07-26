@@ -47,6 +47,7 @@ export const ContainerInput = styled.div`
   }
 
   @media (max-width: 400px) {
+    margin-top: 25px;
     margin-left: 10rem;
   }
 `
