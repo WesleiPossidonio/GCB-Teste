@@ -82,7 +82,7 @@ export const ContainerForm = styled.div`
 export const Input = styled.input`
   width: 100%;
   padding: 10px;
-  margin-top: 0.5rem;
+  margin-top: ${({ error }) => (error ? '0.1rem' : '0.5rem')};
   border: none;
   border-bottom: ${({ error }) =>
     error ? '1px solid #cc1717' : '1px solid #badc50'};
@@ -106,6 +106,6 @@ export const ContainerButton = styled.div`
 
   @media (max-width: 550px) {
     gap: 5em;
-    margin-top: 21em;
+    margin-top: 23rem;
   }
 `
