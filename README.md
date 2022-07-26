@@ -17,6 +17,10 @@ O objetivo deste desafio era para fazer as seguintes configurações:
   - Utilizar a API dos correios para preencher os demais campos que compõe o endereço.
   - Validação dos campos
   - Armazenar os dados do formulário no local storage e Cookies.
+  
+  <h3 align="center">
+    <a href="https://desafio-healthy-food.netlify.app/">Acessar a demonstração</a>
+<h3 >
 
 ## 🎨 Layout
 
