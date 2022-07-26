@@ -44,8 +44,6 @@ export const ContainerItens = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 15px;
-  /* border-radius: 0 10px 10px 0;
-  box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22); */
 `
 
 export const TitleForm = styled.h1`
@@ -58,7 +56,7 @@ export const TitleForm = styled.h1`
 
 export const TextTitle = styled.p`
   text-align: center;
-  font-size: min(13px, 2.8vw);
+  font-size: min(13px, 3.7vw);
   margin-top: 13px;
   margin-bottom: 5em;
 

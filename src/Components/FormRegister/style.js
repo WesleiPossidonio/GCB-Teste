@@ -70,11 +70,12 @@ export const ContainerForm = styled.div`
     grid-area: uf;
   }
 
-  @media (max-width: 459px) {
-    width: 70%;
+  @media (max-width: 550px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     align-items: center;
-    margin-left: 3em;
-    gap: 1em;
+    padding: 20px;
   }
 `
 
@@ -103,15 +104,8 @@ export const ContainerButton = styled.div`
   gap: 10em;
   margin-top: 10em;
 
-  @media (max-width: 459px) {
+  @media (max-width: 550px) {
     gap: 5em;
-    margin-left: 3em;
-    margin-top: 11em;
-  }
-
-  @media (max-width: 420px) {
-    margin-left: 0;
-    padding: 0 2em;
-    gap: 5em;
+    margin-top: 21em;
   }
 `

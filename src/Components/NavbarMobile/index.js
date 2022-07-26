@@ -9,6 +9,10 @@ export const NavbarMobile = ({ menuIsvisible, setMenuIsviseble }) => {
     document.body.style.overflowY = menuIsvisible ? 'hidden' : 'auto'
   }, [menuIsvisible])
 
+  const goBackPage = () => {
+    document.body.style.overflowY = 'auto'
+  }
+
   return (
     <Container isVisible={menuIsvisible}>
       <IoClose size={35} onClick={() => setMenuIsviseble(false)} />
@@ -22,7 +26,9 @@ export const NavbarMobile = ({ menuIsvisible, setMenuIsviseble }) => {
         <LinkNav to="SectionJoin" spy={true} smooth={true}>
           JOIN
         </LinkNav>
-        <LinkRegister to="/cadastro">REGISTER</LinkRegister>
+        <LinkRegister to="/cadastro" onClick={goBackPage}>
+          REGISTER
+        </LinkRegister>
       </ContainerHeader>
     </Container>
   )
